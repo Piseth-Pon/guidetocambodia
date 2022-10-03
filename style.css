@@ -1,0 +1,219 @@
+body{
+    background-color: darkcyan;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+nav{
+    background-color: darkslategray;
+   padding: 20px;
+   text-align: center;
+}
+nav a {
+    color: whitesmoke;
+    background-color: lightslategray;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+    margin: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+/* style banner */
+.banner{
+    height: 500px;
+    background-image: url(./images/banner.jpg);
+    background-position: top center;
+    background-size: cover;
+    padding: 20px;
+}
+.intro h1 {
+    text-align: center;
+    color: orangered;
+    font-size: 48px;
+    text-shadow: 4px 4px 2px white;
+}
+iframe{
+    display: block;
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    border: 4px solid white;
+    margin-bottom: 40px;
+}
+.about{
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: antiquewhite;
+    border: 4px solid brown;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+.country {
+    font-size: 48px;
+    text-decoration: underline ;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.profile {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    height: 300px;
+    background-color: antiquewhite;
+    border: 4px solid brown;
+    border-radius: 30px  ;
+    margin-bottom: 40px;
+    padding: 10px;
+
+}
+.profile img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid grey;
+}
+footer{
+    background-color:darkslategray;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    
+}
+
+/* Site Page */
+
+.sectiontitle {
+    color: brown;
+    text-align: center;
+    border-right: 5px double brown;
+    border-left: 5px double brown;
+    width: fit-content;
+    margin: 10px auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.pop-province{
+    background-color: antiquewhite;
+    padding: 25px;
+    border-radius: 15px;
+    width: 90%;
+    margin: 10px auto;
+}
+.pop-province ol {
+    list-style-type: lower-roman;
+}
+.pop-province ol li {
+    text-align: left;
+}
+.gallery img {
+    width: 200px;
+    height: 125px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    box-shadow: 0,0,3px, darkblue;
+}
+.gallery{
+    text-align: center;
+}
+.recommend{
+    padding: 25px;
+    border-radius: 15px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+
+/* Food Page */
+.food-card{
+    width: 250px;
+    height: 300px;
+
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 15px;
+
+    display: inline-block;
+    overflow: hidden;
+}
+.food-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.food-card h3{
+    text-align: center;
+}
+.food-card p {
+    margin: 5px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 90%;
+    margin: 10px auto;
+}
+td,th{
+    border: 2px solid white;
+}
+th {
+    height: 50px;
+    background-color: brown;
+    color: whitesmoke;
+    font-size: 24px;
+}
+.col1{
+    width: 20%;
+}
+.col2{
+    width: 30%;
+    
+}
+.col3{
+    width: 40%;}
+
+.col4{
+    width: 10%;
+}
+table img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* Culture Page */
+.article{
+    width: 90%;
+    height: 350px;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px 0;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+
+.image {
+    width: 45%;
+    height: 100%;
+    overflow: hidden;
+    display: inline-block;
+}
+.image img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border: 15px solid darkcyan;
+} 
+.info{
+    width: 45%;
+    height: 100%;
+    display: inline-block;
+    overflow: hidden;
+}
